@@ -1,0 +1,29 @@
+# All files
+[*]
+indent_style = space
+# Code files
+[*.{cs,csx,fs,fsx,vb,vbx}]
+indent_size          = 4         #"IndentSpaceNum":4
+insert_final_newline = true
+charset              = utf-8-bom
+max_line_length      = 120       #"PageWidth":120
+###############################
+# .NET Coding Conventions     #
+###############################
+[*.{cs,fs,vb,fsx}]
+# Organize usings
+dotnet_sort_system_directives_first = false            #"ReorderOpenDeclaration" :false
+###############################
+# F# Formatting Rules         #
+###############################
+fsharp_strict_mode                  = false            #"StrictMode"             :false
+fsharp_semicolon_at_end_of_line     = true             #"SemicolonAtEndOfLine"   :false
+fsharp_space_before_argument        = true             #"SpaceBeforeArgument"    :true
+fsharp_space_around_coma            = after            #"SpaceAfterComma"        :true
+fsharp_space_around_colon           = none             #"SpaceBeforeColon"       :false
+fsharp_space_around_semicolon       = after            #"SpaceAfterSemicolon"    :true
+fsharp_space_around_delimiter       = before_and_after #"SpaceAroundDelimiter"   :true
+fsharp_ident_on_try_with            = false            #"IndentOnTryWith"        :false
+fsharp_keep_new_line_after          = false            #"KeepNewlineAfter"       :false
+fsharp_max_if_then_else_short_width = 40               #"MaxIfThenElseShortWidth":40
+fsharp_multiline_bracket_style = stroustrup
